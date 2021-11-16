@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0,0,0,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    margin: 5px;
+    padding: 0.4rem;
+}
+
+.card{
+    margin: 30px auto;
+    width: 380px;
+}
+
+.title {
+    background-color: rgb(240, 238, 238);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.middle {
+    background-color: white;
+    padding: 35px;
+    font-size: 1.3rem;
+}
+
+.button-selection {
+    position: relative;
+    background-color: rgb(240, 238, 238);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 20px;
+    text-align: right;
+}
+
+.button-1, .button-2 {
+   margin: 5px; 
+   display: inline-flex;
+   
+}
+
+
+.button-1 {
+    background-color: rgb(95, 95, 95);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.button-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button-2 {
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.button-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
